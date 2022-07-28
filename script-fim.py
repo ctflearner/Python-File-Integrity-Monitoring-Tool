@@ -12,7 +12,7 @@ print(colored(check.renderText('FILE INTEGRITY MODEL'),'blue'))
 print(Fore.BLUE + "**************************************************************************************")
 
 Monitor_the_file = [
-    {'Path_of_the_Folder': r'C:\Users\dx\Desktop\Testing-for-FIM','recursive': True}
+    {'Path_of_the_Folder': r'//OVER HERE GIVE THE LOCATION OF THE FOLDER WHICH YOU WANT TO MONITOR','recursive': True}   
 ]
 files={}
 def get_all_files():
